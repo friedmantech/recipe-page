@@ -37,15 +37,14 @@ body {
   justify-content: center;
   padding: 0;
   margin: 0;
+  height: 250vh;
 }
 
 main {
-  max-width: 600px;
+  max-width: 480px;
   background-color: var(--White);
   border-radius: 1rem;
-  padding-left:1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
+  padding: 2rem;
 }
 
 h1, h2 {
@@ -119,6 +118,10 @@ tr {
   border-bottom: 2px solid var(--Stone100);
 }
 
+tr.last {
+  border-bottom: none;
+}
+
 td {
   padding: .5em;
 }
@@ -129,9 +132,14 @@ td:nth-of-type(2) {
 }
 
 @media (device-width < 480px) {
+  body {
+    height: auto;
+  }
+
   main {
     padding:0;
   }
+
   img {
     border-radius: 0;
   }
@@ -141,7 +149,6 @@ td:nth-of-type(2) {
     padding-right: 1rem;
   }
 }
-
 
 </style>
 </head>
@@ -212,7 +219,7 @@ td:nth-of-type(2) {
   <td>20g</td>
   </tr>
 
-  <tr>
+  <tr class = "last">
   <td>Fat</td>
   <td>22g</td>
   </tr>
