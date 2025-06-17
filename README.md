@@ -1,6 +1,6 @@
-# Frontend Mentor - Social Links Profile Solution
+# Frontend Mentor - Recipe Page Solution
 
-This is a solution to the Social Links Profile challenge on Frontend Mentor.
+This is a solution to the Recipe Page challenge on Frontend Mentor.
 
 ### Screenshot
 
@@ -8,8 +8,8 @@ This is a solution to the Social Links Profile challenge on Frontend Mentor.
 
 ### Links
 
-- [Challenge URL:](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)  
-- [Live Site URL:](https://friedmantech.github.io/social-links/)
+- [Challenge URL:](http://frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)  
+- [Live Site URL:](https://friedmantech.github.io/recipe-page/)
 
 
 ### Built with
